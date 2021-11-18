@@ -1349,5 +1349,9 @@ footer .content .link li a {
   .services {
     padding: 140px 0px 50px 0px !important;
   }
+  .heading h4 {
+    font-size: 16px !important;
+    padding: 20px !important;
+  }
 }
 /*# sourceMappingURL=style.css.map */
