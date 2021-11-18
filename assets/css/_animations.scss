@@ -1,0 +1,64 @@
+/***************************** Start Animations *****************************/
+@keyframes spinner {
+    0% {
+        transform: rotate(0deg) scale3d(.8, .8, .8);
+
+    }
+
+    100% {
+        transform: rotate(360deg) scale3d(1, 1, 1);
+    }
+}
+@keyframes animationFramesOne {
+    0% {
+        transform: translate(0) rotate( 0deg);
+    }
+    
+    20% {
+        transform: translate(73px,-1px) rotate(36deg );
+    }
+    40% {
+        transform: translate(141px,72px) rotate( 72deg);
+    }
+    60% {
+        transform: translate(83px,122px) rotate(108deg );
+    }
+    80% {
+        transform: translate(-40px,72px) rotate(144deg );
+    }
+    100% {
+        transform: translate(0) rotate(  0deg);
+    }
+}
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(10deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+/*spinner loading page*/
+@keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes toRightFromLeft {
+    49% { transform: translate(100%); }
+    50% { opacity: 0; transform: translate(-100%); }
+    51% { opacity: 1; }
+}
